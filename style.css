@@ -13,7 +13,6 @@ h1,
 h2,
 h3 {
   text-align: center;
-  margin: 0;
 }
 
 h1 {
@@ -100,7 +99,7 @@ p {
 .background-two {
   background: white;
 }
-.launch-button {
+.launch-button a {
   color: var(--secondary-color);
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -112,7 +111,22 @@ p {
   font-weight: 18px;
   text-align: center;
 }
-.launch-button:hover {
+.launch-button a:hover {
   color: blue;
   cursor: pointer;
+}
+@media (max-width: 576px) {
+  h1,
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  .launch-button a {
+    display: block;
+    margin: 10px 20px;
+  }
 }
