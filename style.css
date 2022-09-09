@@ -1,6 +1,7 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #9efccf;
+  --secondary-color: #caa1f2;
+  --third-color: #1a28ab;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
@@ -13,6 +14,7 @@ h1,
 h2,
 h3 {
   text-align: center;
+  color: var(--third-color);
 }
 
 h1 {
@@ -56,16 +58,17 @@ p {
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
-  color: white;
+  color: var(--third-color);
 }
 
 .about-link {
   color: var(--primary-color);
+  color: var(--third-color);
   border: 1px solid var(--primary-color);
 }
 
 .homepage-link {
-  color: var(--primary-color);
+  color: color: var(--third-color);
   text-align: center;
   display: block;
 }
@@ -100,7 +103,7 @@ p {
   background: white;
 }
 .launch-button a {
-  color: var(--secondary-color);
+  color: var(--third-color);
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   border: var(--primary-color);
