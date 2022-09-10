@@ -18,12 +18,17 @@ h3 {
 }
 
 h1 {
-  font-size: 94px;
+  font-size: 64px;
   padding: 0px 5px;
+  font-family: Secular One;
 }
-
+h2,
+h3,
+p {
+  font-family: "Inconsolata", monospace;
+}
 h2 {
-  font-size: 48px;
+  font-size: 42px;
   padding: 40px 0px;
 }
 
@@ -68,7 +73,7 @@ p {
 }
 
 .homepage-link {
-  color: color: var(--third-color);
+  color: var(--third-color);
   text-align: center;
   display: block;
 }
@@ -93,9 +98,7 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
-.padding-top {
-  padding-top: 90px;
-}
+
 .background-one {
   background: #f9f7fe;
 }
