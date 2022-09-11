@@ -20,7 +20,7 @@ h3 {
 
 h1 {
   font-size: 64px;
-  padding: 0px 5px;
+  padding: 10px 5px;
   font-family: Secular One;
 }
 h2,
@@ -30,7 +30,7 @@ p {
 }
 h2 {
   font-size: 42px;
-  padding: 40px 0px;
+  padding: 40px 5px 10px 5px;
 }
 
 h3 {
@@ -100,7 +100,7 @@ p {
 }
 
 .background-one {
-  background: #f9f7fe;
+  background: #f1f1f1;
 }
 .background-two {
   background: white;
