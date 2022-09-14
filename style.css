@@ -4,6 +4,7 @@
   --third-color: #1a28ab;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --primary-font: "Inconsolata", monospace;
+  --second-font: "Secular One";
 }
 
 body {
@@ -21,7 +22,7 @@ h3 {
 h1 {
   font-size: 64px;
   padding: 10px 5px;
-  font-family: Secular One;
+  font-family: var(--second-font);
 }
 h2,
 h3,
@@ -75,7 +76,7 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--secondary-color);
+  color: var(--third-color);
   font-size: 28px;
   text-decoration: none;
 }
@@ -113,6 +114,10 @@ p {
   max-width: 280px;
   display: block;
   margin: 0 auto;
+}
+.contact-info h3 {
+  font-family: var(--second-font);
+  color: rgb(222, 116, 23);
 }
 @media (max-width: 576px) {
   h1,
