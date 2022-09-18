@@ -77,7 +77,7 @@ p {
   display: flex;
   justify-content: center;
   color: var(--third-color);
-  font-size: 28px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -120,6 +120,18 @@ p {
 .contact-info h3 {
   font-family: var(--second-font);
   color: rgb(66, 45, 201);
+}
+ul {
+  text-align: center;
+}
+.footer-link {
+  display: inline;
+  list-style: none;
+  padding: 5px 20px;
+  font-size: 36px;
+  text-decoration: none;
+
+  margin: 5px 10px;
 }
 @media (max-width: 576px) {
   h1,
