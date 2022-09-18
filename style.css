@@ -88,7 +88,7 @@ p {
 }
 
 .background-one {
-  background: #f1f1f1;
+  background: #ffffff;
 }
 .background-two {
   background: white;
@@ -121,6 +121,7 @@ p {
   font-family: var(--second-font);
   color: rgb(66, 45, 201);
 }
+
 ul {
   text-align: center;
 }
@@ -130,8 +131,11 @@ ul {
   padding: 5px 20px;
   font-size: 36px;
   text-decoration: none;
-
   margin: 5px 10px;
+}
+footer h3 {
+  color: var(--third-color);
+  background: #9efccf;
 }
 @media (max-width: 576px) {
   h1,
