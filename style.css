@@ -83,6 +83,8 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
 .background-one {
@@ -117,7 +119,7 @@ p {
 }
 .contact-info h3 {
   font-family: var(--second-font);
-  color: rgb(222, 116, 23);
+  color: rgb(66, 45, 201);
 }
 @media (max-width: 576px) {
   h1,
