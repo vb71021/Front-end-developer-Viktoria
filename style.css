@@ -78,12 +78,15 @@ p {
   justify-content: center;
   color: var(--third-color);
   font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
+  background: var(--secondary-color);
+  border-radius: 100px;
 }
 
 .email-link:hover {
   text-decoration: underline;
-  color: var(--secondary-color);
+
   transition: all 100ms ease-in-out;
 }
 
@@ -135,7 +138,10 @@ ul {
 }
 footer h3 {
   color: var(--third-color);
+}
+footer {
   background: #9efccf;
+  padding: 7px 0px;
 }
 @media (max-width: 576px) {
   h1,
