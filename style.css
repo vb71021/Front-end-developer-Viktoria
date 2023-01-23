@@ -142,6 +142,7 @@ footer h3 {
 footer {
   background: #9efccf;
   padding: 7px 0px;
+  box-shadow: var(--box-shadow);
 }
 @media (max-width: 576px) {
   h1,
